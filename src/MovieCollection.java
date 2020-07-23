@@ -104,12 +104,6 @@ public class MovieCollection {
         BST.Node[] leftArray = new BST.Node[lenLeft];
         BST.Node[] rightArray = new BST.Node[lenRight];
 
-//        // copy data to temp arrays
-//        for (int i = 0; i < lenLeft; ++i)
-//            leftArray[i] = arr[left + i];
-//        for (int j = 0; j < lenRight; ++j)
-//            rightArray[j] = arr[middle + 1 + j];
-
         // copy data to temp arrays
         if (lenLeft >= 0) System.arraycopy(arr, left, leftArray, 0, lenLeft);
         if (lenRight >= 0) System.arraycopy(arr, middle + 1, rightArray, 0, lenRight);
