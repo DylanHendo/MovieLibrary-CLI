@@ -1,7 +1,5 @@
 /**
- * NOTE for MARKER:
- * Wasn't sure where to mention this, but this is a Binary Search Tree class completed fully by myself.
- * None of the below code was taken/edited/used from the Binary Search Tree supplied by Maolin.
+ * Binary Search Tree implementations
  */
 public class BST {
 
